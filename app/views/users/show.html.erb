@@ -9,6 +9,10 @@
 <%= link_to 'Back', users_path %>
 
 <br>
+<h1>Original video file, you can watch video while it is been converted in the background</h1>
 <video controls>
   <source src="<%= url_for(@user.profile_video) %> ">
 </video>
+
+<h1>GIF file after convertation >></h1>
+<%= image_tag url_for(@user.profile_video), class: "img-responsive"%>
