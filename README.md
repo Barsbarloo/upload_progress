@@ -1,6 +1,6 @@
 # README
 
-1. Visit: localhost:3000/users
+1. Visit: localhost:3000
 2. Create new user
 3. Choose video file and upload it
 4. It will be converted to GIF
